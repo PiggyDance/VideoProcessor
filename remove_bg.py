@@ -1,7 +1,7 @@
 from pixelate_and_remove_bg import remove_background
 from pathlib import Path
 
-path = '/Volumes/disk/LynxProjects/webcast_hybrid-social/apps/linkmic_dynamic_lynx/src/images/live_multilink_staeg_flower_petal2.jpg'
+path = '/Volumes/disk/tmp/flowerpngs/live_multilink_stage_flower_petal4_6.png'
 
 rm_bg_image = remove_background(path)
 input_path = Path(path)
